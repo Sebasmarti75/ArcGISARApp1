@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)esri.arcgisruntime.runtimes.android\100.14.1\buildTransitive\MonoAndroid10\Esri.ArcGISRuntime.runtimes.Android.targets" Condition="Exists('$(NuGetPackageRoot)esri.arcgisruntime.runtimes.android\100.14.1\buildTransitive\MonoAndroid10\Esri.ArcGISRuntime.runtimes.Android.targets')" />
+    <Import Project="$(NuGetPackageRoot)esri.arcgisruntime\100.14.1\buildTransitive\MonoAndroid10\Esri.ArcGISRuntime.targets" Condition="Exists('$(NuGetPackageRoot)esri.arcgisruntime\100.14.1\buildTransitive\MonoAndroid10\Esri.ArcGISRuntime.targets')" />
+  </ImportGroup>
+</Project>

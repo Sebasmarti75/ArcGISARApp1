@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\ProyectosEsriVisual\\ArcGISARApp1\\ArcGISARApp1\\ArcGISARApp1.csproj": {}
+  },
+  "projects": {
+    "D:\\ProyectosEsriVisual\\ArcGISARApp1\\ArcGISARApp1\\ArcGISARApp1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ProyectosEsriVisual\\ArcGISARApp1\\ArcGISARApp1\\ArcGISARApp1.csproj",
+        "projectName": "ArcGISARApp1",
+        "projectPath": "D:\\ProyectosEsriVisual\\ArcGISARApp1\\ArcGISARApp1\\ArcGISARApp1.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\ProyectosEsriVisual\\ArcGISARApp1\\ArcGISARApp1\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid12.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\User\\AppData\\Local\\Esri\\NuGet": {}
+        },
+        "frameworks": {
+          "monoandroid12.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid12.0": {
+          "dependencies": {
+            "Esri.ArcGISRuntime": {
+              "target": "Package",
+              "version": "[100.14.1, )"
+            },
+            "Esri.ArcGISRuntime.ARToolkit": {
+              "target": "Package",
+              "version": "[100.14.1, )"
+            },
+            "Esri.ArcGISRuntime.Toolkit": {
+              "target": "Package",
+              "version": "[100.14.1, )"
+            },
+            "Esri.ArcGISRuntime.Xamarin.Android": {
+              "target": "Package",
+              "version": "[100.14.1, )"
+            },
+            "Esri.ArcGISRuntime.runtimes.Android": {
+              "target": "Package",
+              "version": "[100.14.1, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}
